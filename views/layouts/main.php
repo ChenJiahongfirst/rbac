@@ -57,7 +57,7 @@ AppAsset::register($this);
     <div class="col-sm-2 col-md-2 col-lg-2 sidebar">
         <ul class="nav nav-sidebar">
             <li class="active"><a href="#">权限演示页面</a></li>
-<!--            <li>权限演示页面</li>-->
+            <!--            <li>权限演示页面</li>-->
             <li><a href="javascript:void (0);">测试页面一</a></li>
             <li><a href="javascript:void (0);">测试页面二</a></li>
             <li><a href="javascript:void (0);">测试页面三</a></li>
@@ -69,7 +69,8 @@ AppAsset::register($this);
         </ul>
     </div>
     <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-        内容
+        <?= $content; ?>
+
         <hr/>
         <footer>
             <p class="pull-left">@NicoleChan</p>
