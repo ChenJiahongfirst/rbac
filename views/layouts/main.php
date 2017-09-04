@@ -1,6 +1,7 @@
 <?php
 
 /* @var $this \yii\web\View */
+
 /* @var $content string */
 
 use yii\helpers\Html;
@@ -30,7 +31,8 @@ AppAsset::register($this);
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -54,14 +56,25 @@ AppAsset::register($this);
 <div class="container-fluid">
     <div class="col-sm-2 col-md-2 col-lg-2 sidebar">
         <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
+            <li class="active"><a href="#">权限演示页面</a></li>
+<!--            <li>权限演示页面</li>-->
+            <li><a href="javascript:void (0);">测试页面一</a></li>
+            <li><a href="javascript:void (0);">测试页面二</a></li>
+            <li><a href="javascript:void (0);">测试页面三</a></li>
+            <li><a href="javascript:void (0);">测试页面一四</a></li>
+            <li>系统设置</li>
+            <li><a href="javascript:void (0);">用户管理</a></li>
+            <li><a href="javascript:void (0);">角色管理</a></li>
+            <li><a href="javascript:void (0);">权限管理</a></li>
         </ul>
     </div>
-    <div class="col-sm-8 col-md-8 col-lg-8">
+    <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
         内容
+        <hr/>
+        <footer>
+            <p class="pull-left">@NicoleChan</p>
+            <p class="pull-right">By www.imooc.com</p>
+        </footer>
     </div>
 </div>
 
